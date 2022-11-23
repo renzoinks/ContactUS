@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact us</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Contact Us</h1>
+    </header>
+    <main>
+      <form action="" method="GET">
+        <section>
+          <h2>Personal Information</h2>
+          <ul>
+            <li>
+              <label for="">Your Name</label>
+              <input type="text" name="yourname" id="your-name" required placeholder="Lastname, Firstname" />
+            </li>
+          </ul>
+        </section>
+        <section>
+          <ul>
+            <li>
+              <label for="">Your Email Address</label>
+              <input
+                type="email"
+                name="emailaddress"
+                id="emailaddress"
+                required placeholder="name@asdasda.com"
+              />
+            </li>
+          </ul>
+        </section>
+        <section>
+          <ul>
+            <li>
+              <label for="">Your Phone Number</label>
+              <input type="number" name="yournumber" id="yournumber" required placeholder="xxxxxxxxx"/>
+            </li>
+          </ul>
+        </section>
+        <section>
+          <ul>
+            <li>
+              <label for="message">Your Message</label>
+              <textarea name="" id="" rows="7"></textarea>
+            </li>
+          </ul>
+        </section>
+        <section>
+          <label for="channel">How did you find us?</label>
+          <select name="channel" id="">
+            <option value="pleaseselect">-please select-</option>
+            <option value="facebook">Facebook</option>
+            <option value="instagram">Instagram</option>
+            <option value="onlinejobsph">Onlinejobsph</option>
+            <option value="onlinejobsph">Linkedin</option>
+          </select>
+        </section>
+        <section>
+          <h2>How Should we Reply?</h2>
+          <ul>
+            <li class="inline-control">
+              <input type="radio" value="email" name="fixed" />
+              <label for="useremal">Email</label>
+            </li>
+          </ul>
+        </section>
+        <section>
+          <ul>
+            <li class="inline-control">
+              <input type="radio" value="textmessage" name="fixed" />
+              <label for="textmessage">Text Message</label>
+            </li>
+          </ul>
+        </section>
+        <section>
+          <ul>
+            <li class="inline-control">
+              <input type="radio" value="whatsapp" name="fixed" />
+              <label for="whatsapp">Whatsapp</label>
+            </li>
+          </ul>
+        </section>
+        <section>
+          <ul>
+            <li class="inline-control">
+              <input type="radio" value="skype" name="fixed" />
+              <label for="skype">Skype</label>
+            </li>
+          </ul>
+        </section>
+        <section class="inline-control">
+          <input type="checkbox" name="accept-terms" id="accept-terms" />
+          <label for="">Accepts the terms and conditions</label>
+        </section>
+        <section id="form-action">
+          <button type="clear" class="btn-empty">Clear</button>
+          <button class="btn-filled">Submit</button>
+        </section>
+      </form>
+    </main>
+  </body>
+</html>
